@@ -9,6 +9,15 @@
 	"compatibility_flags": [
 		"nodejs_compat"
 	],
+
+    "containers": [
+    {
+      "ssh": {
+        "enabled": true
+      }
+    }
+  ],
+    
 	"vars": {
 		// Production deploys must also define POLICY_AUD and TEAM_DOMAIN.
 		// TEAM_DOMAIN may be the base Access URL or the full /cdn-cgi/access/certs URL.
